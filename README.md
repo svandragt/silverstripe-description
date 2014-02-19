@@ -1,7 +1,7 @@
 silverstripe-description
 ========================
 
-Autopopulate field descriptions to form fields.
+Takes form field descriptions through $db_descriptions and shows them in the edit form.
 
 ## Usage
 
