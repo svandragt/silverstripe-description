@@ -6,7 +6,11 @@ Takes form field descriptions through $db_descriptions and shows them in the edi
 ## Usage
 
 * Extract / clone this so that the path to _config.php is SITEROOT/DescriptionDataExtension/_config.php
-* Adjust _config.php if you don't want it to apply to all DataObjects
+* Attach it to your data objects / page types through the configuration system as follows:
+ 
+```
+Object::add_extension("DataObject","DescriptionDataExtension");
+```
 
 ## DIY Demo:
 
