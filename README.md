@@ -5,8 +5,9 @@ Takes form field descriptions through $db_descriptions and shows them in the edi
 
 ## Usage
 
-* Extract / clone this so that the path to _config.php is SITEROOT/DescriptionDataExtension/_config.php
-* Attach it to your data objects / page types through the configuration system as follows:
+
+1. Install using composer `composer require "svandragt/silverstripe-description:*"` 
+2. Attach it to your data objects / page types through the configuration system as follows:
  
 ```
 Object::add_extension("DataObject","DescriptionDataExtension");
